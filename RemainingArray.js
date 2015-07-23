@@ -3,7 +3,7 @@ function slasher(arr, howMany) {
     var remainingArray = arr.slice(howMany);
 
     console.log(remainingArray);
-    
+
     return remainingArray;
 
 
