@@ -13,6 +13,4 @@ function palindrome(str) {
   return true;
 }
 
-
-
-palindrome("A man, a plan, a canal. Panama");
+module.exports = palindrome;

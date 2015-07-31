@@ -24,10 +24,8 @@ function chunk(arr, size) {
 	// Push the remaining chunk into chunkyArray
 	chunkyArray.push(remainingArray);
 
-  	console.log(chunkyArray);
-
 	return chunkyArray;
 
 }
 
-chunk(['a', 'b', 'c', 'd', 'hello'], 2);
+module.exports = chunk;

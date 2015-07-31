@@ -5,16 +5,15 @@ function findLongestWord(str) {
   for (var i = 0; i < wordArray.length; i++) {
     
     var wordLength = wordArray[i].length;
-    console.log(wordLength);
     
     if (wordLength > longestWordLength) {
       longestWordLength = wordLength;
     }
       
   }
-  
+
   return longestWordLength;
 }
 
-findLongestWord('The quick brown fox jumped over the lazy dog');
+module.exports = findLongestWord;
 
