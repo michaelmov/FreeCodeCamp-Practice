@@ -1,5 +1,6 @@
-var expect = require('chai').expect,
-    assert = require('chai').assert,
+var chai = require('chai'),
+    expect = chai.expect,
+    assert = chai.assert,
     titleCase = require('../07-title-case-sentence.js');
 
 describe('07-title-case-sentence.js', function() {

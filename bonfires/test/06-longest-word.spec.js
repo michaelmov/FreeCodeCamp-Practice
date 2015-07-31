@@ -1,5 +1,6 @@
-var expect = require('chai').expect,
-    assert = require('chai').assert,
+var chai = require('chai'),
+    expect = chai.expect,
+    assert = chai.assert,
     findLongestWord = require('../06-longest-word.js');
 
 describe('06-longest-word.js', function() {

@@ -1,5 +1,6 @@
-var expect = require('chai').expect,
-    assert = require('chai').assert,
+var chai = require('chai'),
+    expect = chai.expect,
+    assert = chai.assert,
     palindrome = require('../05-palindrome.js');
 
 describe('05-palindrome.js', function() {
