@@ -33,3 +33,4 @@ function chunk(arr, size) {
 }
 
 module.exports = chunk;
+

@@ -1,5 +1,8 @@
-var expect = require( 'chai' ).expect;
-var chunk = require( '../12-chunkey-monkey.js' );
+var chai = require('chai'),
+    expect = chai.expect,
+    assert = chai.assert,
+    chunk = require( '../12-chunkey-monkey.js');
+    chai.should();
 
 describe( '12-chunkey-monkey.js', function() {
 
