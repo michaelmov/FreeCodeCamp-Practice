@@ -1,3 +1,8 @@
+/*
+* Make a function that looks through a list (first argument) and returns an array of all objects
+* that have equivalent property values (second argument).
+*/
+
 function where(collection, source) {
     var arr = [];
 
@@ -9,4 +14,4 @@ function where(collection, source) {
     return arr;
 }
 
-where([{ first: 'Romeo', last: 'Montague' }, { first: 'Mercutio', last: null }, { first: 'Tybalt', last: 'Capulet' }], { last: 'Capulet' });
+module.exports = where;

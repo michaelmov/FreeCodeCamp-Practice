@@ -1,3 +1,7 @@
+/*
+* Check if a string (first argument) ends with the given target string (second argument).
+*/
+
 function end(str, target) {
 
 	// Let's remove all punctuation from the string and split it into an array.
