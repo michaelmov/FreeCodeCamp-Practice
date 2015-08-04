@@ -1,4 +1,5 @@
 var Person = function(firstAndLast) {
+
     // Split full name into first and last names
     var fullName = firstAndLast,
         firstName = fullName.split(' ')[0],
@@ -27,7 +28,7 @@ var Person = function(firstAndLast) {
     };
 };
 
-var bob = new Person('Bob Ross');
-console.log(bob.getFullName());
+module.exports = Person;
+
 
 

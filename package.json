@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Bonfire challenges from FreeCodeCamp",
     "scripts": {
-      "test": "./node_modules/mocha/bin/mocha ./test/*.spec.js"
+      "test": "./node_modules/mocha/bin/mocha ./*/*/test/*.spec.js"
     },
 
     "author": "Michael Movsesov",
