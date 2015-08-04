@@ -22,7 +22,7 @@ describe('09-confirm-the-ending.js', function() {
         assert.strictEqual(end('He has to give me a new name', 'name'), true, 'should equal true if target equals end of string');
     });
 
-    it('"WIf you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing" should return false for target "mountain"', function() {
+    it('"If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing" should return false for target "mountain"', function() {
         assert.strictEqual(end('If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing', 'mountain'), false, 'should equal false if target equals end of string');
     });
 });
