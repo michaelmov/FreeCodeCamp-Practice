@@ -17,6 +17,6 @@ describe('11-truncate-a-string', function() {
     it('Should not truncate if string is < length', function() {
         assert.strictEqual(truncate('A-tisket a-tasket A green and yellow basket', 'A-tisket a-tasket A green and yellow basket'.length + 2), 'A-tisket a-tasket A green and yellow basket', 'should not truncate if string is < length');
     });
-    
+
 });
 

@@ -1,7 +1,7 @@
 var expect = require( 'chai' ).expect;
-var chunk = require( '../ChunkArray.js' );
+var chunk = require( '../12-chunkey-monkey.js' );
 
-describe( 'chunk()', function() {
+describe( '12-chunkey-monkey.js', function() {
 
     it( 'Should return an multi-dimensional array', function() {
         expect( chunk( ['a', 'b', 'c', 'd'], 2 )).to.deep.equal( [['a', 'b'], ['c', 'd']] );
