@@ -10,7 +10,6 @@ function end(str, target) {
 	if (rawString.length == 1) {
 		if (rawString[0].substr(rawString[0].length - 1) == target) {
 
-		console.log("true");
 		return true;
 	}
 
@@ -19,19 +18,12 @@ function end(str, target) {
 
 		if (rawString[rawString.length - 1] == target) {
 
-			console.log("true");
 			return true;
 		}
 	}
-	
 
-	console.log("false");
   	return false;
   	
 }
 
-end('frozen', 'n');
-end('frozen', 'a');
-end('Walking on water and developing software from a specification are easy if both are frozen.', 'frozen');
-end('Walking on water and developing software from a specification are easy if both are frozen.', 'hello');	
-
+module.exports = end;
